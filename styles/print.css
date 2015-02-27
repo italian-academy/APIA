@@ -1,0 +1,79 @@
+/***********************************
+* The Italian Academy Website
+* Gary Zhang
+* February  5, 2008
+***********************************/
+
+#left { display: none; }
+#header { display: none; }
+
+#right
+{
+	width: 800px;
+	text-align: center;
+}
+
+#content
+{
+	font-size: 15px;
+	width: 800px;
+	text-align: left;
+}
+
+#content_large
+{
+	font-size: 15px;
+	width: 800px;
+	text-align: left;
+}
+
+a,a:visited
+{
+	text-decoration: underline;
+	color: #000;
+}
+
+h1
+{
+	font-size: 17px;
+	font-weight: bold;
+	margin:0 0 20px 0;
+	padding:0px;
+}
+
+h2
+{
+	font-size: 15px;
+	font-weight: bold;
+	margin:0 0 20px 0;
+	padding:0px;
+}
+
+h3
+{
+	font-size: 20px;
+	font-weight: bold;
+	margin:0 0 20px 0;
+	padding:0px;
+}
+.events img
+{
+	margin: 4px 3px 3px 4px;
+	border-style: solid;
+	border-color: #555;
+	border-width: 1px;
+}
+
+#print
+{
+	visibility:hidden;
+}
+
+#description
+{
+	font-size: 15px;
+	width: 800px;
+	text-align: left;
+	padding: 0 0 40px 0;
+
+}

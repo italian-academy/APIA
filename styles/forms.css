@@ -1,0 +1,55 @@
+/***************************************************
+* Vulcan's Forge Designs
+***************************************************/
+form {
+  padding: 0;
+  margin: 0;
+}
+
+#req {color: red;} 
+
+/* If you're finding the input elements get pushed down, increase the width */
+
+input,
+textarea,
+select {
+  padding: 1px;
+  font: 400 1em verdana, sans-serif;
+  color: #999;
+  background: #EEE;
+  border: 1px solid #CCC;
+}
+
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover,
+select:focus,
+select:hover {
+  color: #000;
+  background: #E7F1F3;
+  border: 1px solid #888;
+}
+
+input.noBorder,
+input:focus.noBorder,
+input:hover.noBorder {
+  padding: 0;
+  border: 0;
+}
+
+input.button {
+  font: 400 0.9em verdana, serif;
+  cursor: pointer;
+
+  color: #000;
+  background: #ccc;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #888 #888 #8880 #888;
+}
+
+input.radio {
+  background: none;
+  border: 0px;
+}

@@ -1,0 +1,88 @@
+/***********************************
+* The Italian Academy Website
+* Gary Zhang
+* February  5, 2008
+***********************************/
+
+dl, dt, dd, ul, li
+{
+	margin : 0;
+	padding : 0;
+	list-style-type : none;
+}
+
+#menu
+{
+	/*width : 190px;*/
+	padding : 0;
+}
+
+#menu dt
+{
+	cursor : pointer;
+	font-size: 12px;
+	padding: 0px 0 0 0px;
+	margin: 10px 0 5px 0;
+	font-weight: bold;
+	text-decoration: none;
+	color: #777;
+
+}
+
+#menu dt span
+{
+	width : 190px;
+	display : block;
+	color: black;
+}
+
+#menu dd
+{
+	padding: 0;
+}
+
+#menu li
+{
+	padding: 3px 0 4px 0;
+}
+
+#menu li a
+{
+	font-size: 12px;
+	padding: 0 0 0 15px;
+	margin: 0 0 0 0px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #777;
+}
+
+#active
+{
+	color: #000;
+}
+
+#menu dt a
+{
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #777;
+}
+
+#menu dt:hover
+{
+	color: #000;
+	/*background: url(../Images/arrow.jpg) no-repeat left center;*/
+}
+
+#menu dt a:hover
+{
+	color: #000;
+	/*background: url(../Images/arrow.jpg) no-repeat left center;*/
+}
+
+#menu li a:hover
+{
+	color: #000;
+	/*background: url(../Images/arrow.jpg) no-repeat left center;*/
+}

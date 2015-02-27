@@ -1,0 +1,522 @@
+/***********************************
+* The Italian Academy Website
+* Ray Ho
+* Fall 2010
+***********************************/
+
+a {text-decoration:none;
+}
+a:link {color: #FFFFFF;}
+a:visited {color: #FFFFFF;}
+a:active {color: #000000;}
+a:hover {
+	/* [disabled]color: #000000; */
+}
+
+/* "*html" is used for IE compliancy*/
+
+/*Force a scrollbar*/
+html { height: 100%; margin-bottom: 1px; }
+
+body
+{
+	background: #ffffff;
+	font-family: 'Cantarell', Arial, Verdana, Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 25px;
+	padding: 0;
+	font-size: 12px;
+	color: #000000;
+	line-height: 17px;
+}
+
+p {
+	text-align: left;	
+}
+
+h1
+{
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+}
+
+h2
+{
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+}
+
+h3
+{
+	font-size: 22px;
+	font-weight: bold;
+	padding:0px 0px 0px 0px ;
+	margin:0px 0px 0px 0px ;
+}
+h4
+{
+	font-size: 16px;
+	font-weight: bold;
+	padding:0px 0px 0px 0px ;
+	margin:0px 0px 0px 0px ;
+}
+
+h5
+{
+	font-size: 14px;
+	font-weight: lighter;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	text-align: left;
+}
+
+h6
+{
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	padding: 10px 0px 10px 0px;
+	margin: 0;
+}
+
+h7
+{
+	font-size: 12px;
+	color: #000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0;
+	display: block;
+	font-style: italic;
+}
+
+h8
+{
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0;
+	display: block;
+}
+
+
+
+#logo-APIA {
+	margin-top: 10px;
+	border: none;
+}
+
+#maincontent
+{
+	width: 1000px;
+	height: 800px;
+ 	margin:0 auto;
+	padding: 0;
+	border: none;
+ 	text-align: center;
+}
+
+#notice {
+	margin: 0 auto;
+	width: 600px;
+	font-size: 10px;
+	font-family: Cantarell, Arial, Verdana, Helvetica, sans-serif;
+	text-align: center;	
+}
+
+.banner {
+	margin-top: 10px;	
+}
+
+#menus
+{
+	margin-top: 23px;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+#left
+{
+	float: left;
+	width: 200px;
+	background-color: #fff;
+	padding: 20px 0 0 0;
+	text-align: left;
+
+}
+
+#left img
+{
+	padding: 0 0 0 0px;
+	border:none;
+}
+
+#right
+{
+	float: right;
+	width: 780px;
+	height: 520px;
+	margin-top: 20px;;
+	padding: 0;
+	text-align: center;
+
+}
+
+#apia {
+	float: right;
+	margin-top: 46px;
+	border: solid #CCCCCC 1px;
+	padding: 5px;
+}
+
+#right-library
+{
+	float: right;
+	width: 780px;
+	height: 520px;
+	background: ;
+	margin-top: 20px;;
+	padding: 0;
+	text-align: center;
+}
+
+#right-italy
+{
+	float: right;
+	width: 780px;
+	height: 520px;
+	background: ;
+	margin-top: 20px;;
+	padding: 0;
+	text-align: left;
+}
+
+#center {
+	
+	height: 300px;
+}
+
+#text {
+	float: left;
+	padding: 20px;
+	width: 390px;
+	position: relative;
+	top: 15px;
+}
+
+.library {
+	position: relative;
+	float: left;
+	background: #CC9A7F;
+	text-align: left;
+	margin-top: 10px;
+	padding-left: 10px;
+	width: 770px;
+}
+
+
+#header-beinecke {
+	position: relative;
+	float: left;
+	background: #FFF;
+	text-align: left;
+	margin-top: 10px;
+	padding-left: 10px;
+	width: 770px;
+	border: solid 1px #FC6;
+}
+
+.beinecke {
+	position: relative;
+	float: left;
+	background: #FC6;
+	text-align: left;
+	margin-top: 5px;
+	padding-left: 10px;
+	width: 770px;
+}
+
+.library a:link {color: #FFFFFF;}
+.library a:visited {color: #FFFFFF;}
+.library a:active {color: #000000;}
+.library a:hover {color: #000000;}
+
+.links {
+	position: relative;
+	float: left;
+	background: #D1D3D4;
+	text-align: left;
+	margin-top: 10px;
+	padding-left: 10px;
+	width: 770px;
+	font-family: Cantarell, Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.style {
+	font-family: Cantarell, Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;	
+}
+
+#blurb {
+	font-family: Cantarell, Arial, Verdana, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+#news {
+	font-family: Cantarell, Arial, Verdana, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 12px;
+	color: #000000;
+	background: #F1F2F2;
+}
+	
+
+#footer
+{
+	background-color: #bbb;
+	width: 780px;
+	margin: -3px 0 0 217px;
+	padding: 8px 0 0 0px;
+	height:70px;
+}
+
+*html #footer
+{
+	margin: -3px 0 0 0;
+	padding: 5px 0 0 0px;
+	height: 71px;
+}
+
+#content
+{
+	width: 530px;
+	font-size: 15px;
+	background-color: #bbb;
+	margin: 0 0 0 217px;
+	padding: 40px 210px 20px 40px;
+	text-align: left;
+}
+
+*html #content
+{
+	margin: -23px 0 0 217px;
+}
+
+/*
+#content a,a:visited
+{
+	text-decoration: none;
+	font-size: 15px;
+	color: #fff;
+}
+
+#content a:hover
+{
+	color: #000;
+	font-size: 15px;
+
+}
+*/
+#content_large
+{
+	font-size: 15px;
+	width: 700px;
+	background-color: #bbb;
+	margin: 0 0 0 217px;
+	padding: 40px 40px 20px 40px;
+	text-align: left;
+}
+
+#content_large_gallery
+{
+	font-size: 15px;
+	width: 700px;
+	height: 900 px;
+	background-color: #bbb;
+	margin: 0 0 0 217px;
+	padding: 40px 40px 20px 40px;
+	text-align: left;
+}
+
+*html #content_large
+{
+	margin: -23px 0 0 217px;
+}
+
+/*
+ #content_large a,a:visited
+{
+	font-size: 15px;
+	text-decoration: none;
+	color: #fff;
+} 
+/*
+
+/* 
+#content_large a:hover
+{
+	font-size: 15px;
+	color: #000;	
+} 
+*/
+
+/* #content_large a,a:visited
+{
+	font-size: 12px;
+	text-decoration: none;
+	color: #fff;
+} 
+
+#content_large a:hover
+{
+	font-size: 12px;
+	color: #000;	
+} 
+*/
+#description
+{
+	visibility:hidden;
+	float: left;
+
+}
+
+
+/************
+* Styles
+************/
+
+
+
+/************
+* News
+************/
+
+
+
+
+#news img {
+	float: left;
+	margin: 1px 6px 0px 6px;
+	border-style: solid;
+	border-color: #555;
+	border-width: 1px;
+}
+
+/*
+#news a,a:visited { color:#fff; }
+
+#news a:hover { color:#000; }
+*/
+
+/************
+* Events
+************/
+.events
+{
+	background-color: #999;
+	margin: 0px 0 15px 0px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+
+}
+
+.events img
+{
+	float: left;
+	margin: 4px 3px 3px 4px;
+	border-style: solid;
+	border-color: #555;
+	border-width: 1px;
+}
+
+
+/************
+* Events09
+************/
+.events09
+{
+	margin: 0px 0 15px 0px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.events09 img
+{
+	float: right;
+	margin: 4px 3px 3px 4px;
+	border-style: solid;
+	border-color: #555;
+	border-width: 1px;
+}
+
+.events09 table 
+{ 
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	width: inherit;
+	vertical-align:top;
+	
+	
+}
+
+
+
+
+/*****************
+* General
+*****************/
+
+/*
+#inverse a,a:visited { color:#000; }
+
+#inverse a:hover { color:#fff; }
+*/
+.right{padding:0 0 0 500px;}
+
+#print
+{
+	margin:10px 45px 0 0px;
+	text-align:right;
+}
+/*
+#print a,a:visited { color:#999; }
+
+#print a:hover { color:#000; }
+*/
+#noscript
+{
+	padding: 10px 0 0 0;
+	color: #FF0000;
+	font-size: 14px;
+
+}
+
+.indent
+{
+	padding:0 0 0 20px;
+}
+
+img.floatLeft {
+    float: left;
+    margin: 4px;
+}
+img.floatRight {
+    float: right;
+    margin: 4px;
+}
+
+/*****************
+* Used during construction
+*****************/
+
+.highlight
+{
+	background-color: #00FF00;
+}

@@ -1,0 +1,578 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-decoration: none;
+	font-size: 100%;
+	vertical-align:baseline;
+}
+
+body {
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+#header {
+		width: 964px;
+		background-color:#FFF;
+		height: 110px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+#banner {
+		float: right;
+		width: 730px;
+		height: 110px;
+		border: solid;
+		border-width:thin;
+		border-color:#CCC;
+	}
+
+#logo {
+	position: relative;
+	float:left;
+	margin-top: 0px;
+	width: 200px;
+	height: auto;
+}
+
+
+/*****************************************************************************************************************************/
+
+
+#main {
+	width: 964px;
+	height: 760px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+#footer_extend {
+	width: 964px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	line-height: 20px;
+	background-color:#FFF;
+}
+
+
+	#footer {
+		position: relative;
+		width: auto;
+		height: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		margin-top: 0px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		color: #666;
+		line-height: 20px;
+		border-top:solid;
+		border-width:thin;
+		border-color:#CCC;
+		background-color:#FFF;
+	}
+
+
+
+/*****************************************************************************************************************************/
+
+#splash {
+	float: right;
+	width: 730px;
+	height: 500px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	border: solid;
+	border-width: thin;
+	border-color:#F0F0F0;
+	background-image:url(../images/home_gradient.png);
+	overflow:hidden;
+	}
+
+
+	#splash-box {
+		float: left;
+		width: 295px;
+		height: 400px;
+		padding: 25px;
+		margin-left: 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		line-height: 22px;
+		background-color:#FFF;
+		opacity: 0.6;
+		z-index: 0;
+		}
+		
+	#splash-box-2 {
+		position:relative;
+		float: left;
+		width: 295px;
+		height: 100%;
+		padding: 25px;
+		margin-left: 12px;
+		margin-top: 45px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		line-height: 22px;
+		background-color:#FFF;
+		opacity: 0.6;
+		z-index: 0;
+		}
+	
+	
+
+#home-info {
+	float: right;
+	margin-top: 10px;
+	width: 730px;
+	height: 190px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 22px;
+	border: solid;
+	border-width: thin;
+	border-color:#CCC;
+	background-color:#EAEAEA
+	}
+	
+
+/********Columbia Library****************************************************************************************************************************/
+
+#info-container {
+	float: right;
+	width: 730px;
+	height: 800px;
+	overflow:hidden;
+	}
+	
+#info-container-static {
+	float: right;
+	width: 715px;
+	height: 100%;
+	padding-left: 15px;
+	padding-top: 15px;
+	overflow:hidden;
+	border-top: solid;
+	border-width: thin;
+	border-color: #CCC;
+	line-height: 20px;
+	}
+	
+#info-container-scroll {
+	position: relative;
+	float: right;
+	width: 750px;
+	height: 700px;
+	border-top: solid;
+	border-width: thin;
+	border-color: #CCC;
+	margin-top: 20px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	}
+	
+#info_div_for_shaded_blocks {
+		float: right;
+		width:100%;
+		height: auto;
+		margin-bottom: 26px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		line-height: 22px;
+		background-color:#FFF;
+		overflow-y:auto;
+		overflow-x:hidden;
+	}
+	
+		#shaded_block_mauve {
+		position: relative;
+		float: right;
+		background:#E4DAD3;
+		text-align: left;
+		margin-top: 12px;
+		padding: 20px;
+		width: 660px;
+		font-family: Cantarell, Arial, Verdana, Helvetica, sans-serif;
+		font-size: 12px;
+		line-height: 20px;
+		}
+		
+		#shaded_block_gray {
+		position: relative;
+		float: right;
+		background:#E6E6E6;
+		text-align: left;
+		margin-top: 10px;
+		margin-left: 10px;
+		padding: 20px;
+		width: 660px;
+		font-family: Cantarell, Arial, Verdana, Helvetica, sans-serif;
+		font-size: 12px;
+		line-height: 20px;
+		}
+		
+
+.links-book-whole {
+	text-decoration:underline;
+	color:#FB674D;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+a.links-book-title:link {color:#000}
+a.links-book-title:visited {color:#666}
+a.links-book-title:hover {color:#FFF}
+a.links-book-title:active {color:#000}
+
+a.links-book-whole:link {color:#FB674D; font-weight:bold;}
+a.links-book-whole:visited {color:#FB674D}
+a.links-book-whole:hover {color:#F99}
+a.links-book-whole:active {color:#FB674D}
+		
+
+
+/********Resources****************************************************************************************************************************/
+
+.links-description {
+	color:#000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.links-site {
+	text-decoration:underline;
+	color:#FB674D;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+
+/*****************************************************************************************************************************/
+
+
+	#info_1 {
+		float: left;
+		width: 305px;
+		height: 135px;
+		padding: 20px;
+		margin-bottom: 26px;
+		margin-right: 26px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		line-height: 22px;
+		overflow-y:auto;
+		border: solid;
+		border-width: thin;
+		border-color: #CCC;
+		background-color:#FFF;
+		overflow:hidden;
+		white-space:normal;
+	}
+	
+	#info_2 {
+		float: left;
+		width: 310px;
+		height: 135px;
+		padding: 20px;
+		margin-bottom: 26px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		line-height: 22px;
+		overflow-y:auto;
+		border: solid;
+		border-width: thin;
+		border-color: #CCC;
+		background-color:#FFF;
+		overflow:hidden;
+		white-space:normal;
+	}
+
+	#info_books {
+		float: left;
+		width: 685px;
+		height: auto;
+		padding: 20px;
+		margin-bottom: 26px;
+		margin-right: 26px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		line-height: 22px;
+		overflow-y:auto;
+		border: solid;
+		border-width: thin;
+		border-color: #CCC;
+		background-color:#FFF;
+		overflow:hidden;
+		white-space:normal;
+	}
+	
+	
+		#info_academies {
+		float: left;
+		width: 685px;
+		height: auto;
+		padding: 20px;
+		margin-bottom: 26px;
+		margin-right: 26px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		line-height: 22px;
+		overflow-y:auto;
+		border: solid;
+		border-width: thin;
+		border-color: #CCC;
+		background-color:#FFF;
+		overflow:hidden;
+		white-space:normal;
+	}
+	
+		#info_video {
+		float: left;
+		width: 685px;
+		height: auto;
+		padding: 20px;
+		margin-bottom: 26px;
+		margin-right: 26px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		line-height: 22px;
+		overflow-y:auto;
+		border: solid;
+		border-width: thin;
+		border-color: #CCC;
+		background-color:#FFF;
+		overflow:hidden;
+		white-space:normal;
+	}
+
+
+#info-container_italy {
+	float: right;
+	width: 730px;
+	height: 800px;
+	}
+	
+		#info_italy_text {
+		float: left;
+		width: 685px;
+		height: auto;
+		padding: 20px;
+		margin-bottom: 26px;
+		margin-right: 26px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		line-height: 22px;
+		border: solid;
+		border-width: thin;
+		border-color: #CCC;
+		background-color:#FFF;
+		overflow:hidden;
+		white-space:normal;
+	}
+	
+		#info_italy_name {
+		float: left;
+		width: 685px;
+		height: 500px;
+		padding: 20px;
+		margin-bottom: 26px;
+		margin-right: 26px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		line-height: 22px;
+		overflow-y:auto;
+		overflow-x:hidden;
+		border: solid;
+		border-width: thin;
+		border-color: #CCC;
+		background-color:#FFF;
+		white-space:normal;
+	}
+	
+	
+
+
+/*****************************************************************************************************************************/
+#nav {
+	float: left;
+	width: 210px;
+	height: auto;
+	margin:3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	overflow-y:auto;
+	background-color:#FFF;
+	text-align:left;
+	overflow: hidden;
+}
+
+
+
+/*****************************************************************************************************************************/
+
+a.nav_index:link {color:#333; text-decoration:none}
+a.nav_index:visited {color:#333}
+a.nav_index:active {color:#99CCFF; font-weight: bold}
+a.nav_index:hover {color:#999}
+.activate { font-weight: bold; }
+
+a.nav:link {color:#A45200}
+a.nav:visited {color:#A45200}
+a.nav:active {color:#A45200; font-weight: bold}
+a.nav:hover {color:#999}
+.activate { font-weight: bold; }
+
+
+a.nav_left:link {color:#999; font-size:13px;}
+a.nav_left:visited {color:#999}
+a.nav_left:active {color:#999; font-weight: bold}
+a.nav_left:hover {color:#cc5500}
+.activate { font-weight: bold; }
+ 
+a.textlink:link {color:#804000; font-size:18px; font-weight: bold; text-decoration:underline;}
+a.textlink:visited {color:#804000}
+a.textlink:active {color:#804000; font-weight: bold}
+a.textlink:hover {color:#999}
+
+/*****************************************************************************************************************************/
+
+.justified {text-align:justify; padding:10px; padding-right:20px;}
+.p1 {text-align:left; padding-top:20px; padding-left:38px; float:left; width: 300px;}
+.p2 {text-align:left; padding-top:20px; padding-right: 38px; float:right; width: 300px;}
+
+.welcome {color:#FB674D; font-size:18px; font-weight: bold;}
+.link {color:#804000; font-size:18px; font-weight: bold;}
+.link-default {color:#FB674D}
+
+.nav-home {background-color:#000; color:#FFF}
+
+
+.links-france {
+	position: relative;
+	float: left;
+	background:#E6E6E6;
+	color:#FB674D;
+	text-align: left;
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-right:20px;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 50px;
+}
+
+.links-italy {
+	position: relative;
+	float: left;
+	background: #D1D3D4;
+	text-align: left;
+	margin-top: 10px;
+	padding-left: 10px;
+	width: 770px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+
+/*****************************************************************************************************************************/
+
+.urbangreymenu{
+width: 210px; /*width of menu*/
+}
+
+.urbangreymenu .headerbar{
+font: bold 13px Verdana;
+color: white;
+background:#CCC;
+margin-bottom: 0; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 7px 0 7px 18px; /*31px is left indentation of header text*/
+}
+
+.urbangreymenu .headerbar a{
+text-decoration: none;
+color: white;
+display: block;
+}
+
+.urbangreymenu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 0; /*bottom spacing between each UL and rest of content*/
+}
+
+.urbangreymenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.urbangreymenu ul li a{
+font: normal 13px Arial;
+color: black;
+background: #EEE;
+display: block;
+padding: 10px 0;
+line-height: 17px;
+padding-left: 18px; /*link text is indented 18px*/
+text-decoration: none;
+}
+
+.urbangreymenu ul li a:visited{
+color: black;
+}
+
+.urbangreymenu ul li a:hover{ /*hover state CSS*/
+color: white;
+background: black;
+}
+
+
+
+
+
+body#index a#index,
+body#academies a#academies,
+body#video a#video,
+body#books a#books,
+body#italy a#italy,
+body#france a#france,
+body#britain a#britain,
+body#spain a#spain,
+body#library a#library
+		{
+			color:#fff;
+			background-color:#000;
+}
+
+.beinecke {background-image:url(../images/beinecke.PNG)}

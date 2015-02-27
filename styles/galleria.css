@@ -1,0 +1,64 @@
+/***********************************
+* The Italian Academy Website
+* Gary Zhang
+* February  5, 2008
+***********************************/
+
+.galleria
+{
+	list-style:none;
+	width:200px;
+	text-align:center;
+}
+.galleria li
+{
+	display:block;
+	width:80px;
+	height:80px;
+	overflow:hidden;
+	float:left;
+	margin:0 10px 10px 0;
+}
+.galleria li a
+{
+	display:none;
+}
+.galleria li div
+{
+	position:absolute;
+	display:none;
+	top:0;
+	left:180px;
+}
+.galleria li div img{cursor:pointer}
+.galleria li.active div img,.galleria li.active div{display:block}
+
+.galleria li img.thumb
+{
+cursor:pointer;
+top:auto;
+left:auto;
+display:block;
+width:auto;
+height:auto;
+}
+.galleria li .caption{display:block;padding-top:.5em}
+* html .galleria li div span{width:400px} /* MSIE bug */
+
+
+
+
+
+
+body{padding:20px;text-align:right;background:#444;color:#000;margin:0 auto;}
+
+.caption{font-style:italic;color:#887;}
+.gallery_box{position:relative;margin-top:2em;text-align:center;}
+
+.gallery_demo {margin:0 auto 0 auto;width:600px;}
+.gallery_demo li{width:68px;height:50px;border:3px double #111;margin: 0 2px;background:#000;}
+.gallery_demo li div{left:240px}
+.gallery_demo li div .caption{font:italic 0.7em/1.4 georgia,serif;}
+
+#main_image {margin:0 auto 20px auto; height:400px;width:600px;background:black;}
+#main_image img{margin-bottom:10px;}
